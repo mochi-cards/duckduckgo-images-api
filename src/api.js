@@ -23,7 +23,7 @@ async function image_search({ query, moderate, retries, iterations }) {
             "o": "json",
             "q": keywords,
             "vqd": token,
-            "f": ",,,",
+            "f": ",size:Medium,,,,",
             "p": "" + (p)
         }
 
